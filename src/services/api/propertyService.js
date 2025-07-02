@@ -136,13 +136,7 @@ async getUserProperties(userId) {
     if (index === -1) {
       throw new Error('Property not found')
     }
-const deleted = mockProperties.splice(index, 1)[0]
+    const deleted = mockProperties.splice(index, 1)[0]
     return { ...deleted }
-  },
-
-  async getCities() {
-    await delay(200)
-    const cities = [...new Set(mockProperties.map(p => p.location.city))]
-    return cities.sort()
   }
 }

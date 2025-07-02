@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useAuth } from '@/hooks/useAuth'
 import { useLanguage } from '@/hooks/useLanguage'
@@ -15,11 +15,11 @@ import { toast } from 'react-toastify'
 const MyPropertiesPage = () => {
   const { t } = useLanguage()
   const { user } = useAuth()
-  const navigate = useNavigate()
   const [properties, setProperties] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
   const [activeTab, setActiveTab] = useState('all')
+
   useEffect(() => {
     loadUserProperties()
   }, [])
@@ -93,7 +93,7 @@ const MyPropertiesPage = () => {
                 <ApperIcon name="RefreshCw" size={18} />
                 <span>Refresh</span>
               </Button>
-<Button onClick={() => navigate('/add-property')}>
+              <Button>
                 <ApperIcon name="Plus" size={18} />
                 <span>Add Property</span>
               </Button>
@@ -185,10 +185,10 @@ const MyPropertiesPage = () => {
 
             {!loading && !error && filteredProperties.length === 0 && (
               <Empty
-title={`No ${activeTab === 'all' ? '' : activeTab} properties found`}
+                title={`No ${activeTab === 'all' ? '' : activeTab} properties found`}
                 message="Start by adding your first property listing to reach potential tenants."
                 actionText="Add Your First Property"
-                onAction={() => navigate('/add-property')}
+                onAction={() => console.log('Add property')}
               />
             )}
 
