@@ -62,39 +62,43 @@ const CategoryPage = () => {
     loadProperties()
   }
 
-  const getCategoryInfo = () => {
+const getCategoryInfo = () => {
     switch (type) {
       case 'residential':
         return {
           title: t('residential'),
-          description: 'Find your perfect home with our residential properties',
+          description: 'Find your perfect home with our residential rental properties across Pakistan',
           icon: 'Building',
           color: 'from-blue-500 to-blue-600',
-          subcategories: ['House', 'Apartment', 'Villa', 'Studio']
+          subcategories: ['House', 'Apartment', 'Villa', 'Studio', 'Flat', 'Room'],
+          features: ['Furnished Options', 'Family-Friendly', 'Security', 'Modern Amenities']
         }
       case 'commercial':
         return {
           title: t('commercial'),
-          description: 'Discover prime commercial spaces for your business',
+          description: 'Discover prime commercial rental spaces for your business needs',
           icon: 'Store',
           color: 'from-green-500 to-green-600',
-          subcategories: ['Office', 'Shop', 'Warehouse', 'Factory']
+          subcategories: ['Office', 'Shop', 'Warehouse', 'Factory', 'Showroom', 'Plaza'],
+          features: ['High Foot Traffic', 'Business Ready', 'Flexible Terms', 'Prime Locations']
         }
       case 'agricultural':
         return {
           title: t('agricultural'),
-          description: 'Explore agricultural lands and farming opportunities',
+          description: 'Explore agricultural rental lands and farming opportunities',
           icon: 'Wheat',
           color: 'from-orange-500 to-orange-600',
-          subcategories: ['Farmland', 'Orchard', 'Livestock', 'Poultry']
+          subcategories: ['Farmland', 'Orchard', 'Livestock Farm', 'Poultry Farm', 'Dairy Farm', 'Greenhouse'],
+          features: ['Fertile Soil', 'Water Access', 'Modern Equipment', 'Transportation']
         }
       default:
         return {
-          title: 'Properties',
-          description: 'Browse available properties',
+          title: 'Rental Properties',
+          description: 'Browse available rental properties across Pakistan',
           icon: 'Home',
           color: 'from-gray-500 to-gray-600',
-          subcategories: []
+          subcategories: [],
+          features: []
         }
     }
   }

@@ -302,7 +302,7 @@
       },
       "featured": true,
       "createdAt": "2024-01-06T01:00:00Z"
-    },
+},
     {
       "Id": 11,
       "title_en": "4 Bedroom House in F-10 Islamabad",
@@ -310,19 +310,21 @@
       "description_en": "Spacious 4-bedroom house in the desirable F-10 sector of Islamabad. Features large rooms, modern kitchen, and a beautiful garden. Close to schools and commercial areas.",
       "description_ur": "اسلام آباد کے مطلوبہ F-10 سیکٹر میں وسیع 4 بیڈروم مکان۔ بڑے کمرے، جدید کچن، اور خوبصورت باغ کے ساتھ۔ سکولوں اور تجارتی علاقوں کے قریب۔",
       "type": "residential",
+      "subtype": "house",
       "price": 120000,
       "area": 300,
       "areaUnit": "sqyd",
       "bedrooms": 4,
       "bathrooms": 3,
       "parking": "2 Cars",
+      "furnished": "semi-furnished",
       "location": {
         "city": "Islamabad",
         "area": "F-10",
         "address": "Street 15, F-10/2, Islamabad",
         "coordinates": { "lat": 33.6959, "lng": 73.0353 }
       },
-      "amenities": ["parking", "garden", "security", "generator"],
+      "amenities": ["parking", "garden", "security", "generator", "servant_quarter"],
       "images": [
         "/api/placeholder/800/600",
         "/api/placeholder/800/600"
@@ -342,6 +344,7 @@
       "description_en": "Traditional retail shop in the famous Anarkali Bazaar. High customer traffic, perfect for clothing, accessories, or traditional items. Historic market with loyal customer base.",
       "description_ur": "مشہور انارکلی بازار میں روایتی ریٹیل دکان۔ زیادہ کسٹمر ٹریفک، کپڑے، لوازمات، یا روایتی اشیاء کے لیے بہترین۔ وفادار کسٹمر بیس کے ساتھ تاریخی بازار۔",
       "type": "commercial",
+      "subtype": "shop",
       "price": 40000,
       "area": 150,
       "areaUnit": "sqft",
@@ -362,6 +365,259 @@
       },
       "featured": false,
       "createdAt": "2024-01-04T23:00:00Z"
+    },
+    {
+      "Id": 13,
+      "title_en": "Furnished Apartment in Clifton Karachi",
+      "title_ur": "کلفٹن کراچی میں فرنشڈ اپارٹمنٹ",
+      "description_en": "Fully furnished 2-bedroom apartment in prime Clifton location. Sea view, modern amenities, and premium furnishing. Perfect for executives and expats.",
+      "description_ur": "کلفٹن کے اہم مقام پر مکمل فرنشڈ 2 بیڈروم اپارٹمنٹ۔ سمندری منظر، جدید سہولات، اور بہترین فرنشنگ۔ ایگزیکٹوز اور غیر ملکیوں کے لیے بہترین۔",
+      "type": "residential",
+      "subtype": "apartment",
+      "price": 95000,
+      "area": 1000,
+      "areaUnit": "sqft",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": "1 Car",
+      "furnished": "fully-furnished",
+      "location": {
+        "city": "Karachi",
+        "area": "Clifton",
+        "address": "Block 5, Clifton, Karachi",
+        "coordinates": { "lat": 24.8138, "lng": 67.0310 }
+      },
+      "amenities": ["parking", "security", "generator", "gym", "pool", "internet", "ac", "furnished"],
+      "images": [
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600"
+      ],
+      "contactInfo": {
+        "name": "Sea View Properties",
+        "phone": "+92-302-1234567",
+        "email": "seaview@example.com"
+      },
+      "featured": true,
+      "createdAt": "2024-01-03T22:00:00Z"
+    },
+    {
+      "Id": 14,
+      "title_en": "Modern Office Space in Gulberg Lahore",
+      "title_ur": "گلبرگ لاہور میں جدید آفس اسپیس",
+      "description_en": "Contemporary office space in Gulberg commercial hub. Open plan layout, conference rooms, and modern facilities. Ideal for startups and growing businesses.",
+      "description_ur": "گلبرگ کمرشل ہب میں جدید آفس اسپیس۔ اوپن پلان لے آؤٹ، کانفرنس رومز، اور جدید سہولات۔ اسٹارٹ اپس اور بڑھتے کاروبار کے لیے مثالی۔",
+      "type": "commercial",
+      "subtype": "office",
+      "price": 80000,
+      "area": 1500,
+      "areaUnit": "sqft",
+      "location": {
+        "city": "Lahore",
+        "area": "Gulberg",
+        "address": "Main Boulevard, Gulberg II, Lahore",
+        "coordinates": { "lat": 31.5200, "lng": 74.3587 }
+      },
+      "amenities": ["parking", "security", "generator", "internet", "ac", "elevator"],
+      "images": [
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600"
+      ],
+      "contactInfo": {
+        "name": "Business Hub",
+        "phone": "+92-302-2234567",
+        "email": "business@example.com"
+      },
+      "featured": false,
+      "createdAt": "2024-01-02T21:00:00Z"
+    },
+    {
+      "Id": 15,
+      "title_en": "Dairy Farm in Okara District",
+      "title_ur": "اوکاڑہ ضلع میں ڈیری فارم",
+      "description_en": "Established dairy farm with 50 cattle capacity. Modern milking equipment, feed storage, and veterinary facilities. Excellent investment opportunity.",
+      "description_ur": "50 مویشیوں کی گنجائش کے ساتھ قائم شدہ ڈیری فارم۔ جدید دودھ نکالنے کا سامان، چارہ اسٹوریج، اور ویٹرنری سہولات۔ بہترین سرمایہ کاری کا موقع۔",
+      "type": "agricultural",
+      "subtype": "dairy",
+      "price": 150000,
+      "area": 3,
+      "areaUnit": "kanal",
+      "location": {
+        "city": "Okara",
+        "area": "Rural Area",
+        "address": "Village Hujra Shah Muqeem, Okara",
+        "coordinates": { "lat": 30.8081, "lng": 73.4534 }
+      },
+      "amenities": ["water", "generator", "security", "backup_water"],
+      "images": [
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600"
+      ],
+      "contactInfo": {
+        "name": "Dairy Solutions",
+        "phone": "+92-302-3234567",
+        "email": "dairy@example.com"
+      },
+      "featured": true,
+      "createdAt": "2024-01-01T20:00:00Z"
+    },
+    {
+      "Id": 16,
+      "title_en": "Luxury Villa in Bahria Town Karachi",
+      "title_ur": "بحریہ ٹاؤن کراچی میں لگژری ولا",
+      "description_en": "Stunning luxury villa with private pool and garden. Premium location in Bahria Town Karachi with 24/7 security and modern amenities.",
+      "description_ur": "پرائیویٹ پول اور باغ کے ساتھ شاندار لگژری ولا۔ بحریہ ٹاؤن کراچی میں بہترین جگہ، 24/7 سیکیورٹی اور جدید سہولات کے ساتھ۔",
+      "type": "residential",
+      "subtype": "villa",
+      "price": 250000,
+      "area": 500,
+      "areaUnit": "sqyd",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "parking": "3 Cars",
+      "furnished": "semi-furnished",
+      "location": {
+        "city": "Karachi",
+        "area": "Bahria Town",
+        "address": "Precinct 10, Bahria Town, Karachi",
+        "coordinates": { "lat": 24.9165, "lng": 67.1824 }
+      },
+      "amenities": ["parking", "garden", "security", "generator", "gym", "pool", "internet", "ac"],
+      "images": [
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600"
+      ],
+      "contactInfo": {
+        "name": "Luxury Estates",
+        "phone": "+92-302-4234567",
+        "email": "luxury@example.com"
+      },
+      "featured": true,
+      "createdAt": "2023-12-31T19:00:00Z"
+    },
+    {
+      "Id": 17,
+      "title_en": "Showroom Space in I.I. Chundrigar Road Karachi",
+      "title_ur": "I.I چندریگر روڈ کراچی میں شو روم اسپیس",
+      "description_en": "Prime showroom space on main I.I. Chundrigar Road. High visibility location perfect for automotive, electronics, or furniture displays.",
+      "description_ur": "مین I.I چندریگر روڈ پر بہترین شو روم اسپیس۔ آٹوموٹو، الیکٹرانکس، یا فرنیچر ڈسپلے کے لیے اعلیٰ مرئیت والی جگہ۔",
+      "type": "commercial",
+      "subtype": "showroom",
+      "price": 180000,
+      "area": 2500,
+      "areaUnit": "sqft",
+      "location": {
+        "city": "Karachi",
+        "area": "I.I. Chundrigar Road",
+        "address": "I.I. Chundrigar Road, Karachi",
+        "coordinates": { "lat": 24.8459, "lng": 67.0273 }
+      },
+      "amenities": ["parking", "security", "generator", "internet", "ac"],
+      "images": [
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600"
+      ],
+      "contactInfo": {
+        "name": "Commercial Centers",
+        "phone": "+92-302-5234567",
+        "email": "commercial@example.com"
+      },
+      "featured": false,
+      "createdAt": "2023-12-30T18:00:00Z"
+    },
+    {
+      "Id": 18,
+      "title_en": "Furnished Room in Johar Town Lahore",
+      "title_ur": "جوہر ٹاؤن لاہور میں فرنشڈ کمرہ",
+      "description_en": "Comfortable furnished room for students and working professionals. Shared kitchen and lounge area. Near UCP and other educational institutions.",
+      "description_ur": "طلباء اور کام کرنے والے پیشہ ور افراد کے لیے آرام دہ فرنشڈ کمرہ۔ شیئرڈ کچن اور لاؤنج ایریا۔ UCP اور دیگر تعلیمی اداروں کے قریب۔",
+      "type": "residential",
+      "subtype": "room",
+      "price": 15000,
+      "area": 120,
+      "areaUnit": "sqft",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "furnished": "fully-furnished",
+      "location": {
+        "city": "Lahore",
+        "area": "Johar Town",
+        "address": "Phase 1, Johar Town, Lahore",
+        "coordinates": { "lat": 31.4677, "lng": 74.2869 }
+      },
+      "amenities": ["security", "internet", "ac", "furnished"],
+      "images": [
+        "/api/placeholder/800/600"
+      ],
+      "contactInfo": {
+        "name": "Student Housing",
+        "phone": "+92-302-6234567",
+        "email": "student@example.com"
+      },
+      "featured": false,
+      "createdAt": "2023-12-29T17:00:00Z"
+    },
+    {
+      "Id": 19,
+      "title_en": "Greenhouse Complex in Sahiwal",
+      "title_ur": "ساہیوال میں گرین ہاؤس کمپلیکس",
+      "description_en": "Modern greenhouse complex for vegetable and flower cultivation. Climate-controlled environment with automated irrigation system.",
+      "description_ur": "سبزیوں اور پھولوں کی کاشت کے لیے جدید گرین ہاؤس کمپلیکس۔ آب و ہوا کنٹرولڈ ماحول اور خودکار آبپاشی سسٹم۔",
+      "type": "agricultural",
+      "subtype": "greenhouse",
+      "price": 100000,
+      "area": 1,
+      "areaUnit": "kanal",
+      "location": {
+        "city": "Sahiwal",
+        "area": "Rural Area",
+        "address": "Chichawatni Road, Sahiwal",
+        "coordinates": { "lat": 30.6707, "lng": 73.1114 }
+      },
+      "amenities": ["water", "generator", "heating", "backup_water"],
+      "images": [
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600"
+      ],
+      "contactInfo": {
+        "name": "Agri Tech",
+        "phone": "+92-302-7234567",
+        "email": "agritech@example.com"
+      },
+      "featured": false,
+      "createdAt": "2023-12-28T16:00:00Z"
+    },
+    {
+      "Id": 20,
+      "title_en": "Plaza Space in Blue Area Islamabad",
+      "title_ur": "بلو ایریا اسلام آباد میں پلازہ اسپیس",
+      "description_en": "Modern plaza space in the heart of Blue Area. Multiple floors available, perfect for corporate offices, banks, or professional services.",
+      "description_ur": "بلو ایریا کے دل میں جدید پلازہ اسپیس۔ متعدد منزلیں دستیاب، کارپوریٹ آفسز، بینکوں، یا پیشہ ورانہ خدمات کے لیے بہترین۔",
+      "type": "commercial",
+      "subtype": "plaza",
+      "price": 300000,
+      "area": 4000,
+      "areaUnit": "sqft",
+      "location": {
+        "city": "Islamabad",
+        "area": "Blue Area",
+        "address": "Jinnah Avenue, Blue Area, Islamabad",
+        "coordinates": { "lat": 33.7077, "lng": 73.0549 }
+      },
+      "amenities": ["parking", "security", "generator", "internet", "ac", "elevator"],
+      "images": [
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600"
+      ],
+      "contactInfo": {
+        "name": "Prime Plazas",
+        "phone": "+92-302-8234567",
+        "email": "primeplaza@example.com"
+      },
+      "featured": true,
+      "createdAt": "2023-12-27T15:00:00Z"
     }
   ]
 }

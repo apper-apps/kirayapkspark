@@ -126,11 +126,38 @@ const cities = [
     { value: 'killa-abdullah', label: 'Killa Abdullah' }
   ]
 
-  const propertyTypes = [
+const propertyTypes = [
     { value: 'residential', label: t('residential') },
     { value: 'commercial', label: t('commercial') },
     { value: 'agricultural', label: t('agricultural') }
   ]
+
+  const rentalSubtypes = {
+    residential: [
+      { value: 'apartment', label: 'Apartment' },
+      { value: 'house', label: 'House' },
+      { value: 'villa', label: 'Villa' },
+      { value: 'studio', label: 'Studio' },
+      { value: 'flat', label: 'Flat' },
+      { value: 'room', label: 'Room' }
+    ],
+    commercial: [
+      { value: 'office', label: 'Office' },
+      { value: 'shop', label: 'Shop' },
+      { value: 'warehouse', label: 'Warehouse' },
+      { value: 'factory', label: 'Factory' },
+      { value: 'showroom', label: 'Showroom' },
+      { value: 'plaza', label: 'Plaza' }
+    ],
+    agricultural: [
+      { value: 'farmland', label: 'Farmland' },
+      { value: 'orchard', label: 'Orchard' },
+      { value: 'livestock', label: 'Livestock Farm' },
+      { value: 'poultry', label: 'Poultry Farm' },
+      { value: 'dairy', label: 'Dairy Farm' },
+      { value: 'greenhouse', label: 'Greenhouse' }
+    ]
+  }
 
   const handleSearch = () => {
     const queryParams = new URLSearchParams()

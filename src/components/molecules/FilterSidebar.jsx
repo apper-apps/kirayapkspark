@@ -119,14 +119,37 @@ const cities = [
     { value: 'killa-abdullah', label: 'Killa Abdullah' }
   ]
 
-  const propertyTypes = [
+const propertyTypes = [
     { value: 'residential', label: t('residential') },
     { value: 'commercial', label: t('commercial') },
     { value: 'agricultural', label: t('agricultural') }
   ]
 
+  const rentalSubtypes = {
+    residential: [
+      { value: 'apartment', label: 'Apartment' },
+      { value: 'house', label: 'House' },
+      { value: 'villa', label: 'Villa' },
+      { value: 'studio', label: 'Studio' }
+    ],
+    commercial: [
+      { value: 'office', label: 'Office' },
+      { value: 'shop', label: 'Shop' },
+      { value: 'warehouse', label: 'Warehouse' },
+      { value: 'factory', label: 'Factory' }
+    ],
+    agricultural: [
+      { value: 'farmland', label: 'Farmland' },
+      { value: 'orchard', label: 'Orchard' },
+      { value: 'livestock', label: 'Livestock Farm' },
+      { value: 'poultry', label: 'Poultry Farm' }
+    ]
+  }
+
   const amenitiesList = [
-    'parking', 'garden', 'security', 'generator', 'gym', 'pool', 'internet'
+    'parking', 'garden', 'security', 'generator', 'gym', 'pool', 'internet',
+    'elevator', 'backup_water', 'furnished', 'ac', 'heating', 'balcony',
+    'terrace', 'servant_quarter', 'study_room', 'prayer_room', 'basement'
   ]
 
   const handleFilterChange = (key, value) => {

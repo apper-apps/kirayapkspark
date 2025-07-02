@@ -1,4 +1,6 @@
-import { mockProperties } from '@/services/mockData/properties.json'
+import mockData from '@/services/mockData/properties.json'
+
+const { mockProperties } = mockData
 
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms))
 
@@ -27,18 +29,27 @@ export const propertyService = {
     return mockProperties.filter(p => p.type === type)
   },
 
-  async search(filters) {
+async search(filters) {
     await delay(400)
     let results = [...mockProperties]
 
     if (filters.city) {
       results = results.filter(p => 
-        p.location.city.toLowerCase().includes(filters.city.toLowerCase())
+        p.location.city.toLowerCase().includes(filters.city.toLowerCase()) ||
+        p.location.area.toLowerCase().includes(filters.city.toLowerCase())
       )
     }
 
     if (filters.propertyType) {
       results = results.filter(p => p.type === filters.propertyType)
+    }
+
+    if (filters.subtype) {
+      results = results.filter(p => p.subtype === filters.subtype)
+    }
+
+    if (filters.furnished) {
+      results = results.filter(p => p.furnished === filters.furnished)
     }
 
     if (filters.priceMin) {
@@ -57,6 +68,10 @@ export const propertyService = {
       results = results.filter(p => p.area <= parseInt(filters.areaMax))
     }
 
+    if (filters.bedrooms) {
+      results = results.filter(p => p.bedrooms >= parseInt(filters.bedrooms))
+    }
+
     if (filters.amenities && filters.amenities.length > 0) {
       results = results.filter(p => 
         filters.amenities.some(amenity => p.amenities?.includes(amenity))
@@ -64,6 +79,23 @@ export const propertyService = {
     }
 
     return results
+  },
+
+  async getBySubtype(type, subtype) {
+    await delay(300)
+    return mockProperties.filter(p => p.type === type && p.subtype === subtype)
+  },
+
+  async getByCity(city) {
+    await delay(300)
+    return mockProperties.filter(p => 
+      p.location.city.toLowerCase() === city.toLowerCase()
+    )
+  },
+
+  async getFurnishedProperties() {
+    await delay(300)
+    return mockProperties.filter(p => p.furnished && p.furnished !== 'unfurnished')
   },
 
 async getUserProperties(userId) {
