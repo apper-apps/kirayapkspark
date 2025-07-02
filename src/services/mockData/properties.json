@@ -1,0 +1,367 @@
+{
+  "mockProperties": [
+    {
+      "Id": 1,
+      "title_en": "Luxury 3 Bedroom Apartment in DHA Lahore",
+      "title_ur": "ڈی ایچ اے لاہور میں لگژری 3 بیڈروم اپارٹمنٹ",
+      "description_en": "Spacious and modern 3-bedroom apartment located in the heart of DHA Lahore. Features contemporary design, premium finishes, and all modern amenities. Perfect for families looking for comfort and luxury.",
+      "description_ur": "ڈی ایچ اے لاہور کے دل میں واقع وسیع اور جدید 3 بیڈروم اپارٹمنٹ۔ جدید ڈیزائن، بہترین فنشنگ، اور تمام جدید سہولات کے ساتھ۔ آرام اور لگژری کی تلاش میں خاندانوں کے لیے بہترین۔",
+      "type": "residential",
+      "price": 85000,
+      "area": 1200,
+      "areaUnit": "sqft",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "parking": "2 Cars",
+      "location": {
+        "city": "Lahore",
+        "area": "DHA Phase 5",
+        "address": "Block Y, DHA Phase 5, Lahore",
+        "coordinates": { "lat": 31.4504, "lng": 74.4004 }
+      },
+      "amenities": ["parking", "security", "generator", "gym", "internet"],
+      "images": [
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600"
+      ],
+      "contactInfo": {
+        "name": "Ahmed Khan",
+        "phone": "+92-300-1234567",
+        "email": "ahmed@example.com"
+      },
+      "featured": true,
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "Id": 2,
+      "title_en": "Modern Office Space in Blue Area Islamabad",
+      "title_ur": "بلو ایریا اسلام آباد میں جدید آفس اسپیس",
+      "description_en": "Premium office space in the prestigious Blue Area of Islamabad. Ideal for corporate offices, startups, and professional services. Features modern architecture and excellent connectivity.",
+      "description_ur": "اسلام آباد کے مشہور بلو ایریا میں پریمیم آفس اسپیس۔ کارپوریٹ آفسز، اسٹارٹ اپس، اور پیشہ ورانہ خدمات کے لیے مثالی۔ جدید فنِ تعمیر اور بہترین کنکٹیویٹی کے ساتھ۔",
+      "type": "commercial",
+      "price": 150000,
+      "area": 2000,
+      "areaUnit": "sqft",
+      "location": {
+        "city": "Islamabad",
+        "area": "Blue Area",
+        "address": "Jinnah Avenue, Blue Area, Islamabad",
+        "coordinates": { "lat": 33.7077, "lng": 73.0549 }
+      },
+      "amenities": ["parking", "security", "generator", "internet"],
+      "images": [
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600"
+      ],
+      "contactInfo": {
+        "name": "Sarah Ahmed",
+        "phone": "+92-300-2234567",
+        "email": "sarah@example.com"
+      },
+      "featured": true,
+      "createdAt": "2024-01-14T09:00:00Z"
+    },
+    {
+      "Id": 3,
+      "title_en": "5 Marla House in Model Town Lahore",
+      "title_ur": "ماڈل ٹاؤن لاہور میں 5 مرلہ مکان",
+      "description_en": "Beautiful 5 marla house in the heart of Model Town Lahore. Well-maintained property with traditional architecture and modern amenities. Close to schools, hospitals, and shopping centers.",
+      "description_ur": "ماڈل ٹاؤن لاہور کے دل میں خوبصورت 5 مرلہ مکان۔ روایتی فنِ تعمیر اور جدید سہولات کے ساتھ اچھی طرح سے برقرار رکھی گئی پراپرٹی۔ سکولوں، ہسپتالوں، اور شاپنگ سینٹرز کے قریب۔",
+      "type": "residential",
+      "price": 75000,
+      "area": 5,
+      "areaUnit": "marla",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": "1 Car",
+      "location": {
+        "city": "Lahore",
+        "area": "Model Town",
+        "address": "Block A, Model Town, Lahore",
+        "coordinates": { "lat": 31.5507, "lng": 74.3238 }
+      },
+      "amenities": ["parking", "garden", "security"],
+      "images": [
+        "/api/placeholder/800/600"
+      ],
+      "contactInfo": {
+        "name": "Muhammad Ali",
+        "phone": "+92-300-3234567",
+        "email": "ali@example.com"
+      },
+      "featured": false,
+      "createdAt": "2024-01-13T08:00:00Z"
+    },
+    {
+      "Id": 4,
+      "title_en": "Large Agricultural Land in Sheikhupura",
+      "title_ur": "شیخوپورہ میں بڑی زرعی زمین",
+      "description_en": "Fertile agricultural land suitable for various crops. Located in Sheikhupura with good water supply and road access. Perfect for serious farming ventures and agricultural investment.",
+      "description_ur": "مختلف فصلوں کے لیے موزوں زرخیز زرعی زمین۔ شیخوپورہ میں واقع، اچھی پانی کی فراہمی اور سڑک کی رسائی کے ساتھ۔ سنجیدہ زرعی کاروبار اور زرعی سرمایہ کاری کے لیے بہترین۔",
+      "type": "agricultural",
+      "price": 200000,
+      "area": 10,
+      "areaUnit": "kanal",
+      "location": {
+        "city": "Sheikhupura",
+        "area": "Rural Area",
+        "address": "Village Chak 25, Sheikhupura",
+        "coordinates": { "lat": 31.7122, "lng": 73.9780 }
+      },
+      "amenities": ["water", "road"],
+      "images": [
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600"
+      ],
+      "contactInfo": {
+        "name": "Farmer Khan",
+        "phone": "+92-300-4234567",
+        "email": "farmer@example.com"
+      },
+      "featured": true,
+      "createdAt": "2024-01-12T07:00:00Z"
+    },
+    {
+      "Id": 5,
+      "title_en": "2 Bedroom Apartment in Gulshan-e-Iqbal Karachi",
+      "title_ur": "گلشن اقبال کراچی میں 2 بیڈروم اپارٹمنٹ",
+      "description_en": "Comfortable 2-bedroom apartment in the vibrant area of Gulshan-e-Iqbal. Good for small families or working professionals. Near public transport and local markets.",
+      "description_ur": "گلشن اقبال کے زندہ دل علاقے میں آرام دہ 2 بیڈروم اپارٹمنٹ۔ چھوٹے خاندانوں یا کام کرنے والے پیشہ ور افراد کے لیے اچھا۔ پبلک ٹرانسپورٹ اور مقامی بازاروں کے قریب۔",
+      "type": "residential",
+      "price": 45000,
+      "area": 800,
+      "areaUnit": "sqft",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": "1 Car",
+      "location": {
+        "city": "Karachi",
+        "area": "Gulshan-e-Iqbal",
+        "address": "Block 13-D, Gulshan-e-Iqbal, Karachi",
+        "coordinates": { "lat": 24.9224, "lng": 67.0785 }
+      },
+      "amenities": ["parking", "security", "generator"],
+      "images": [
+        "/api/placeholder/800/600"
+      ],
+      "contactInfo": {
+        "name": "Fatima Sheikh",
+        "phone": "+92-300-5234567",
+        "email": "fatima@example.com"
+      },
+      "featured": false,
+      "createdAt": "2024-01-11T06:00:00Z"
+    },
+    {
+      "Id": 6,
+      "title_en": "Commercial Shop in Saddar Rawalpindi",
+      "title_ur": "صدر راولپنڈی میں تجارتی دکان",
+      "description_en": "Prime location commercial shop in the busy Saddar market of Rawalpindi. High foot traffic area, perfect for retail business. Ground floor with good visibility.",
+      "description_ur": "راولپنڈی کے مصروف صدر بازار میں بہترین جگہ تجارتی دکان۔ زیادہ آمد و رفت والا علاقہ، خوردہ فروشی کے کاروبار کے لیے بہترین۔ گرانڈ فلور میں اچھی مرئیت کے ساتھ۔",
+      "type": "commercial",
+      "price": 60000,
+      "area": 300,
+      "areaUnit": "sqft",
+      "location": {
+        "city": "Rawalpindi",
+        "area": "Saddar",
+        "address": "Main Murree Road, Saddar, Rawalpindi",
+        "coordinates": { "lat": 33.5951, "lng": 73.0550 }
+      },
+      "amenities": ["parking", "security"],
+      "images": [
+        "/api/placeholder/800/600"
+      ],
+      "contactInfo": {
+        "name": "Tariq Mahmood",
+        "phone": "+92-300-6234567",
+        "email": "tariq@example.com"
+      },
+      "featured": false,
+      "createdAt": "2024-01-10T05:00:00Z"
+    },
+    {
+      "Id": 7,
+      "title_en": "Luxury Villa in Bahria Town Islamabad",
+      "title_ur": "بحریہ ٹاؤن اسلام آباد میں لگژری ولا",
+      "description_en": "Stunning luxury villa in the prestigious Bahria Town Islamabad. Features spacious rooms, modern amenities, and beautiful landscaping. Perfect for executive families.",
+      "description_ur": "مشہور بحریہ ٹاؤن اسلام آباد میں شاندار لگژری ولا۔ وسیع کمرے، جدید سہولات، اور خوبصورت لینڈ اسکیپنگ کے ساتھ۔ ایگزیکٹو خاندانوں کے لیے بہترین۔",
+      "type": "residential",
+      "price": 200000,
+      "area": 1,
+      "areaUnit": "kanal",
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "parking": "3 Cars",
+      "location": {
+        "city": "Islamabad",
+        "area": "Bahria Town",
+        "address": "Phase 4, Bahria Town, Islamabad",
+        "coordinates": { "lat": 33.5439, "lng": 72.9845 }
+      },
+      "amenities": ["parking", "garden", "security", "generator", "gym", "pool", "internet"],
+      "images": [
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600"
+      ],
+      "contactInfo": {
+        "name": "Hassan Malik",
+        "phone": "+92-300-7234567",
+        "email": "hassan@example.com"
+      },
+      "featured": true,
+      "createdAt": "2024-01-09T04:00:00Z"
+    },
+    {
+      "Id": 8,
+      "title_en": "Warehouse Space in SITE Area Karachi",
+      "title_ur": "سائٹ ایریا کراچی میں گودام کی جگہ",
+      "description_en": "Large warehouse space in SITE industrial area of Karachi. Suitable for storage, manufacturing, or distribution business. Good loading facilities and truck access.",
+      "description_ur": "کراچی کے سائٹ صنعتی علاقے میں بڑا گودام۔ اسٹوریج، مینوفیکچرنگ، یا ڈسٹری بیوشن کاروبار کے لیے موزوں۔ اچھی لوڈنگ سہولات اور ٹرک کی رسائی۔",
+      "type": "commercial",
+      "price": 120000,
+      "area": 5000,
+      "areaUnit": "sqft",
+      "location": {
+        "city": "Karachi",
+        "area": "SITE Area",
+        "address": "SITE Industrial Area, Karachi",
+        "coordinates": { "lat": 24.8850, "lng": 66.9885 }
+      },
+      "amenities": ["parking", "security", "generator"],
+      "images": [
+        "/api/placeholder/800/600"
+      ],
+      "contactInfo": {
+        "name": "Rashid Traders",
+        "phone": "+92-300-8234567",
+        "email": "rashid@example.com"
+      },
+      "featured": false,
+      "createdAt": "2024-01-08T03:00:00Z"
+    },
+    {
+      "Id": 9,
+      "title_en": "Studio Apartment in Gulberg Lahore",
+      "title_ur": "گلبرگ لاہور میں اسٹوڈیو اپارٹمنٹ",
+      "description_en": "Compact and modern studio apartment in the upscale Gulberg area. Perfect for young professionals or students. Fully furnished with modern appliances.",
+      "description_ur": "گلبرگ کے راقی علاقے میں کمپیکٹ اور جدید اسٹوڈیو اپارٹمنٹ۔ نوجوان پیشہ ور افراد یا طلباء کے لیے بہترین۔ جدید آلات کے ساتھ مکمل طور پر مفروشہ۔",
+      "type": "residential",
+      "price": 35000,
+      "area": 450,
+      "areaUnit": "sqft",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "parking": "1 Car",
+      "location": {
+        "city": "Lahore",
+        "area": "Gulberg",
+        "address": "Main Boulevard, Gulberg III, Lahore",
+        "coordinates": { "lat": 31.5200, "lng": 74.3587 }
+      },
+      "amenities": ["parking", "security", "internet"],
+      "images": [
+        "/api/placeholder/800/600"
+      ],
+      "contactInfo": {
+        "name": "Zain Properties",
+        "phone": "+92-300-9234567",
+        "email": "zain@example.com"
+      },
+      "featured": false,
+      "createdAt": "2024-01-07T02:00:00Z"
+    },
+    {
+      "Id": 10,
+      "title_en": "Poultry Farm in Kasur District",
+      "title_ur": "قصور ضلع میں مرغی فارم",
+      "description_en": "Established poultry farm with modern facilities in Kasur district. Includes automatic feeding systems, proper ventilation, and housing for 10,000 birds. Ready for immediate operation.",
+      "description_ur": "قصور ضلع میں جدید سہولات کے ساتھ قائم شدہ مرغی فارم۔ آٹومیٹک فیڈنگ سسٹم، مناسب ہوادار، اور 10,000 پرندوں کے لیے رہائش شامل ہے۔ فوری آپریشن کے لیے تیار۔",
+      "type": "agricultural",
+      "price": 180000,
+      "area": 2,
+      "areaUnit": "kanal",
+      "location": {
+        "city": "Kasur",
+        "area": "Rural Area",
+        "address": "Village Manga Mandi, Kasur",
+        "coordinates": { "lat": 31.1156, "lng": 74.4615 }
+      },
+      "amenities": ["water", "generator", "security"],
+      "images": [
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600"
+      ],
+      "contactInfo": {
+        "name": "Poultry Solutions",
+        "phone": "+92-300-0234567",
+        "email": "poultry@example.com"
+      },
+      "featured": true,
+      "createdAt": "2024-01-06T01:00:00Z"
+    },
+    {
+      "Id": 11,
+      "title_en": "4 Bedroom House in F-10 Islamabad",
+      "title_ur": "F-10 اسلام آباد میں 4 بیڈروم مکان",
+      "description_en": "Spacious 4-bedroom house in the desirable F-10 sector of Islamabad. Features large rooms, modern kitchen, and a beautiful garden. Close to schools and commercial areas.",
+      "description_ur": "اسلام آباد کے مطلوبہ F-10 سیکٹر میں وسیع 4 بیڈروم مکان۔ بڑے کمرے، جدید کچن، اور خوبصورت باغ کے ساتھ۔ سکولوں اور تجارتی علاقوں کے قریب۔",
+      "type": "residential",
+      "price": 120000,
+      "area": 300,
+      "areaUnit": "sqyd",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "parking": "2 Cars",
+      "location": {
+        "city": "Islamabad",
+        "area": "F-10",
+        "address": "Street 15, F-10/2, Islamabad",
+        "coordinates": { "lat": 33.6959, "lng": 73.0353 }
+      },
+      "amenities": ["parking", "garden", "security", "generator"],
+      "images": [
+        "/api/placeholder/800/600",
+        "/api/placeholder/800/600"
+      ],
+      "contactInfo": {
+        "name": "Capital Properties",
+        "phone": "+92-301-1234567",
+        "email": "capital@example.com"
+      },
+      "featured": false,
+      "createdAt": "2024-01-05T00:00:00Z"
+    },
+    {
+      "Id": 12,
+      "title_en": "Retail Shop in Anarkali Bazaar Lahore",
+      "title_ur": "انارکلی بازار لاہور میں ریٹیل دکان",
+      "description_en": "Traditional retail shop in the famous Anarkali Bazaar. High customer traffic, perfect for clothing, accessories, or traditional items. Historic market with loyal customer base.",
+      "description_ur": "مشہور انارکلی بازار میں روایتی ریٹیل دکان۔ زیادہ کسٹمر ٹریفک، کپڑے، لوازمات، یا روایتی اشیاء کے لیے بہترین۔ وفادار کسٹمر بیس کے ساتھ تاریخی بازار۔",
+      "type": "commercial",
+      "price": 40000,
+      "area": 150,
+      "areaUnit": "sqft",
+      "location": {
+        "city": "Lahore",
+        "area": "Anarkali",
+        "address": "Anarkali Bazaar, The Mall, Lahore",
+        "coordinates": { "lat": 31.5688, "lng": 74.3089 }
+      },
+      "amenities": ["security"],
+      "images": [
+        "/api/placeholder/800/600"
+      ],
+      "contactInfo": {
+        "name": "Traditional Traders",
+        "phone": "+92-301-2234567",
+        "email": "traditional@example.com"
+      },
+      "featured": false,
+      "createdAt": "2024-01-04T23:00:00Z"
+    }
+  ]
+}
