@@ -7,7 +7,6 @@ import Button from '@/components/atoms/Button'
 import ApperIcon from '@/components/ApperIcon'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
-
 // Fix for default markers in react-leaflet
 delete L.Icon.Default.prototype._getIconUrl
 L.Icon.Default.mergeOptions({
