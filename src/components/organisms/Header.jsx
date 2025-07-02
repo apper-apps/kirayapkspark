@@ -10,12 +10,13 @@ const Header = () => {
   const location = useLocation()
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
-  const navigationItems = [
+const navigationItems = [
     { path: '/', label: t('home'), icon: 'Home' },
     { path: '/category/residential', label: t('residential'), icon: 'Building' },
     { path: '/category/commercial', label: t('commercial'), icon: 'Store' },
     { path: '/category/agricultural', label: t('agricultural'), icon: 'Wheat' },
-    { path: '/search', label: t('search'), icon: 'Search' }
+    { path: '/search', label: t('search'), icon: 'Search' },
+    { path: '/map', label: 'Map', icon: 'Map' }
   ]
 
   const isActive = (path) => {

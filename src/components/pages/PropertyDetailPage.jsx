@@ -7,6 +7,7 @@ import Input from '@/components/atoms/Input'
 import Loading from '@/components/ui/Loading'
 import Error from '@/components/ui/Error'
 import ApperIcon from '@/components/ApperIcon'
+import MapComponent from '@/components/molecules/MapComponent'
 import { propertyService } from '@/services/api/propertyService'
 import { toast } from 'react-toastify'
 
@@ -311,13 +312,15 @@ const PropertyDetailPage = () => {
                   </div>
                 </div>
               </div>
-              
-              {/* Map placeholder */}
-              <div className="mt-4 bg-gray-100 rounded-lg h-32 flex items-center justify-center">
-                <div className="text-center text-gray-500">
-                  <ApperIcon name="Map" size={32} className="mx-auto mb-2" />
-                  <p className="text-sm">Interactive map</p>
-                </div>
+{/* Interactive Map */}
+              <div className="mt-4">
+                <MapComponent
+                  properties={[property]}
+                  height="200px"
+                  singleProperty={property}
+                  showControls={false}
+                  className="rounded-lg overflow-hidden"
+                />
               </div>
             </div>
           </div>

@@ -7,6 +7,7 @@ import HomePage from '@/components/pages/HomePage'
 import SearchResultsPage from '@/components/pages/SearchResultsPage'
 import PropertyDetailPage from '@/components/pages/PropertyDetailPage'
 import CategoryPage from '@/components/pages/CategoryPage'
+import MapPage from '@/components/pages/MapPage'
 
 function App() {
   return (
@@ -14,11 +15,12 @@ function App() {
       <Router>
         <div className="min-h-screen bg-background">
           <Layout>
-            <Routes>
+<Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/search" element={<SearchResultsPage />} />
               <Route path="/property/:id" element={<PropertyDetailPage />} />
               <Route path="/category/:type" element={<CategoryPage />} />
+              <Route path="/map" element={<MapPage />} />
             </Routes>
           </Layout>
           <ToastContainer
