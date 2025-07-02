@@ -66,12 +66,22 @@ export const propertyService = {
     return results
   },
 
+async getUserProperties(userId) {
+    await delay(300)
+    return mockProperties.filter(p => p.ownerId === userId).map(p => ({ 
+      ...p, 
+      status: p.status || 'active' 
+    }))
+  },
+
   async create(propertyData) {
     await delay(500)
     const maxId = Math.max(...mockProperties.map(p => p.Id), 0)
     const newProperty = {
       Id: maxId + 1,
       ...propertyData,
+      ownerId: propertyData.ownerId,
+      status: 'active',
       createdAt: new Date().toISOString()
     }
     mockProperties.push(newProperty)
